@@ -1,22 +1,18 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-var Oyun = [
-        "Oyun Oynuyor...",
-    ];
-
-var Uyku = [
-        "Sevdiğiyle Uyuyor... 🌙",
-    ];
-
-var Takılma = [
-        "Arkadaşlarıyla Takılıyor...",
-    ];
 
 client.on('ready', () => {
     console.log(`Logeada!`);
-    client.user.setGame(Oyun, "https://www.twitch.tv/antiquary01");
-    
+    var Games = [
+        "Hayatımın ",
+	"Anlamı",
+        `Yaren`
+    ];
+    setInterval(function() {
+	var random = Math.floor(Math.random()*(Games.length-0+1)+0);
+        client.user.setGame(Games[random], "https://www.twitch.tv/antiquary01");
+        }, 2 * 2500);
   
   });
 client.login(process.env.BOT_TOKEN);
