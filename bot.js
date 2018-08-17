@@ -3,7 +3,7 @@ const client = new Discord.Client();
 client.login(process.env.BOT_TOKEN);
 client.on('ready', () => {
     console.log(`Logeada!`);
-    client.user.setGame("Sevdiğiyle Uyuyor... 🌙");
+    client.user.setGame("Sevdiğiyle Uyuyor... 🌙", "https://www.twitch.tv/antiquary01");
     
   
   });
