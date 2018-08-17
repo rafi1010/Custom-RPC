@@ -1,0 +1,24 @@
+{
+  "name": "medea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neyunse/medea-chan.git"
+  },
+  "author": "Neyunse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neyunse/medea-chan/issues"
+  },
+  "homepage": "https://github.com/Neyunse/medea-chan#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0"
+  }
+}
