@@ -7,7 +7,7 @@ client.on('ready', () => {
     var Games = [
         "Hayatımın ",
 	"Anlamı",
-        `Yaren`
+        "Yaren"
     ];
     setInterval(function() {
 	var random = Math.floor(Math.random()*(Games.length-0+1)+0);
