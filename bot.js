@@ -5,8 +5,8 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log(`Logeada!`);
     var Games = [
-        "Yalnızlık Güzeldir...🎤",
-	 "Uyuyor...🌙"
+        "Hayırlı Bayramlar...🎤",
+	 "Geceniz Güzel Olsun...🌙"
     ];
     setInterval(function() {
 	var random = Math.floor(Math.random()*(Games.length-0+1)+0);
