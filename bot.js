@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log(`Logeada!`);
-    client.user.setStatus('available')
+    client.user.setStatus('online')
     client.user.setPresence({
         game: {
             name: 'Gün Doğarken Ardından Tepelerin, Amına Koyim Tüm Teletabilerin.',
