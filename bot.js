@@ -7,7 +7,8 @@ client.on('ready', () => {
     client.user.setStatus('online')
     client.user.setPresence({
         game: {
-            name: 'Gün Doğarken Ardından Tepelerin, Amına Koyim Tüm Teletabilerin.',
+            name: 'Gün Doğarken Ardından Tepelerin,
+            Amına Koyim Tüm Teletabilerin.',
             type: "STREAMING",
             url: "https://www.twitch.tv/antiquary01"
         }
