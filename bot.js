@@ -8,7 +8,7 @@ client.on('ready', () => {
         "Gün Doğarken Ardından Tepelerin",
 	 "Amına Koyim Tüm Teletabilerin."
     ];
-        client.user.setGame(Games[random], "https://www.twitch.tv/antiquary01");
+        client.user.setGame(Games, "https://www.twitch.tv/antiquary01");
 	
   });
 client.login(process.env.BOT_TOKEN);
